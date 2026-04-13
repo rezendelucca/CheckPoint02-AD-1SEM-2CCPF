@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #eef2f3;
+}
+
+/* HEADER */
+header {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header img {
+    width: 300px;
+}
+
+/* MENU */
+nav {
+    background-color: #2d6a4f;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* CONTEÚDO */
+.container {
+    padding: 20px;
+}
+
+/* CAIXAS */
+.box {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border: 2px solid #95d5b2;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+h2 {
+    color: #1b4332;
+}
+
+/* LISTAS */
+ul {
+    margin-left: 20px;
+}
+
+/* TABELA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #40916c;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
